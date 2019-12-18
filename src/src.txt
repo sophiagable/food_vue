@@ -1,0 +1,9 @@
+C:\xampp5634\htdocs\sophia\vue_food\src
+├── App.vue
+├── assets
+├── components
+├── main.js
+├── pages
+└── router
+
+directory: 4 file: 2 

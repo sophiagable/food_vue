@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "cateList":[
+    {
+        "id":1,
+        "name":"午/晚餐"
+    },
+    {
+        "id":2,
+        "name":"飲料"
+    },
+    {
+        "id":3,
+        "name":"點心"
+    }
+    ],
+    "shoplist":[
+      {
+        "shop_id":1,
+        "shopTitle":"日式咖哩屋",
+        "shopTel":"02-26597126",
+        "shopCate_id":1,
+        "shopCate_name":"午/晚餐",
+        "shopAddr":"內湖區江南街113號",
+        "shopTime":"11:00-15:00，17:00-20:00",
+        "minMoney":300,
+        "shopLove":10,
+        "shopBad":5,
+        "favorite":0,
+        "pickTime":"10:30",
+        "shopImage":"/static/images/shop_img/rice_200X250.png"
+      },
+      {
+        "shop_id":2,
+        "shopTitle":"一芳水果茶",
+        "shopTel":"02-2627607,08-26275078",
+        "shopCate_id":2,
+        "shopCate_name":"飲料",
+        "shopAddr":"內湖區內湖路一段xxx號",
+        "shopTime":"8:00-20:00",
+        "minMoney":200,
+        "shopLove":8,
+        "shopBad":3,
+        "favorite":0,
+        "pickTime":"",
+        "shopImage":"/static/images/shop_img/drink_200X250.png"
+      },
+      {
+        "shop_id":3,
+        "shopTitle":"李記甜品",
+        "shopTel":"02-26579930",
+        "shopCate_id":3,
+        "shopCate_name":"點心",
+        "shopAddr":"江南街123號",
+        "shopTime":"11:00-20:00",
+        "minMoney":200,
+        "shopLove":8,
+        "shopBad":3,
+        "favorite":0,
+        "pickTime":"",
+        "shopImage":"/static/images/shop_img/drink_200X250.png"
+      }
+    ]
+
+}

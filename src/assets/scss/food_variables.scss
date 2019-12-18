@@ -1,0 +1,44 @@
+/* 
+ 自訂
+ http://colormind.io/template/paper-dashboard/ 
+*/
+
+// color 
+$light-white: #FAFBFB;
+$success-green: #71ab0a;
+$info-green: #7a9746;
+$light-green: #ADBEB8;
+$bright-orange: #E65F2F;
+$light-orange: #E99476;
+$darken-red: #992f21;
+$light-red: #CE8278;
+$dark-green : #4A5A52;
+$deepDark-green:rgb(37, 51, 44);
+$dark-black : #000;
+
+$primary:       $info-green ;
+$secondary:     $light-orange;
+$success:       $success-green;
+$info:          $info-green;
+$warning:       $darken-red;
+$danger:        $bright-orange;
+$light:         $light-green;
+$dark:          $dark-green;
+
+// font
+
+// Navs
+
+$navbar-dark-active-color:$light-orange; // nav active color
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+$dropdown-bg:  $light;
+$dropdown-link-hover-color:$light;
+$dropdown-link-hover-bg:$dark-green;
+
+
+// Body
+$body-bg:                   $light; //background  color
+$body-color:                $dark; 
